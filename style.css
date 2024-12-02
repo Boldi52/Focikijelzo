@@ -1,0 +1,55 @@
+body{
+    background-image: url(/img/stadion_inside.jpg);
+    background-size: cover;
+    
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-item-left {
+    
+    width: 301px;
+    height: 45px;
+    top: -119px;
+    left: -312px;
+    padding: 5.41px 33.91px 14px 35.96px;
+    gap: 0px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    background-color: grey;
+    flex: 50%;
+  }
+
+  .flex-item-right {
+    
+    width: 301px;
+    height: 45px;
+    top: -119px;
+    left: -312px;
+    padding: 5.41px 33.91px 14px 35.96px;
+    gap: 0px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    background-color: grey;
+    flex: 50%;
+  }
+
+::placeholder{
+    color: white;
+    width: 231px;
+    height: 24.41px;
+    top: 6px;
+    left: 36px;
+    font-size:larger;
+
+
+}
+
+
+
+
+
