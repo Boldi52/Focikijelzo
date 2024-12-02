@@ -25,15 +25,12 @@ body{
   }
 
   .flex-item-right {
-    
     width: 301px;
     height: 45px;
     top: -119px;
     left: -312px;
     padding: 5.41px 33.91px 14px 35.96px;
-    gap: 0px;
     border-radius: 10px 10px 10px 10px;
-    opacity: 0px;
     background-color: grey;
     flex: 50%;
   }
