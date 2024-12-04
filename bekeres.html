@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Focikijelző</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bekeres.css">
 </head>
 <body>
     <main class="flex-container">
         <input class="flex-item-left" type="text" id="csapat1" alt="csapat1" title="1 csapat neve" placeholder="1 csapat neve: "> 
-        
+        <img src="vs.png" alt="" class="vs">
         <input class="flex-item-right" type="text" id="csapat2" alt="cspat2" title="2 csapat neve" placeholder="2 csapat neve: ">
 
 
     </main>
 
     <main class="flex-container2">
-        <input class="flex-item-mid" type="time" name="ido" id="idobekeres" alt="időbekérés" title="időbekérés" placeholder="Félidő hossza: ">
+        <input type="number" class="idobekeres" id="idobekeres" min="1" max="45" placeholder="idő percben">
 
     </main>
 
     <main class="flex-container3">
-        <button class="flex-item-button" type="button">Induljon a meccs</button>
+        <button  class="meccs_inditasa" type="button">Induljon a meccs</button>
     </main>
 </body>
 </html>
