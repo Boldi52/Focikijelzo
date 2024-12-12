@@ -11,14 +11,28 @@
     format('truetype');
 }
 
-.flex-container2{
+@font-face {
+    font-family: 'KottaOne';
+    src: url(KottaOne-Regular.ttf)
+    format('truetype');
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.container2{
     display: flex;
     flex-direction: row;
     font-size: 30px;
     text-align: center;
 
 }
-.flex-item-mid{
+.item-mid{
     width: 200px;
     height: 45px;
     border-radius: 10px 10px 10px 10px;
@@ -31,7 +45,7 @@
 }
 
 
-.flex-item-button{
+.item-button{
     margin: auto;
     background-color: green;
     color: white;
@@ -46,7 +60,7 @@
     background-image: url(img/stadion.jpg);
 }
 
-.flex-item-left2{
+.item-left2{
     background-color: #f1f1f1;
     padding: 10px;
     flex: 20%;
@@ -55,7 +69,7 @@
 
 }
 
-.flex-item-mid2{
+.item-mid2{
     background-color: #474747;
     padding: 10px;
     flex: 30%;
@@ -65,15 +79,15 @@
 ;
 }
 
-.flex-item-right2{
+.item-right2{
     background-color: white;
     padding: 10px;
     flex: 20%;
     font-family: 'Koulen';
 }
 
-.flex-container3{
-    padding-top: 100px;
+.container3{
+    padding-top: 7%;
     display: flex;
     flex-direction: row;
     font-size: 30px;
@@ -82,8 +96,8 @@
     margin: auto;
 }
 
-.flex-container4{
-    padding-top: 100px;
+.container4{
+
     display: flex;
     flex-direction: row;
     font-size: 30px;
@@ -92,13 +106,13 @@
     margin: auto;
 }
 
-.flex-item-left3{
+.item-left3{
     width: 300px;
     height: 448px;
     top: 158px;
     left: 165px;
-    gap: 0px;
-    border: 1px 0px 0px 0px;
+   
+    border: 1px 10px 10px 10px;
     opacity: 0px;
     background: var(--miscellaneous-keyboard-emoji-mic, #1B1F26B8);
     border: 1px solid;
@@ -107,7 +121,7 @@
 
 }
 
-.flex-item-mid3{
+.item-mid3{
     width: 400px;
     height: 501px;
     top: 158px;
@@ -119,7 +133,7 @@
 
 }
 
-.flex-item-right3{
+.item-right3{
     width: 300px;
     height: 448px;
     top: 158px;
@@ -137,9 +151,8 @@
     height: 233px;
     font-family: 'Koulen';
     font-size: 256px;
-    margin: auto;
-    padding-right: 45px;
-    margin-top: -45px;
+    margin-left: 29%;
+    margin-top: -14%;
 }
 
 .eredmeny2{
@@ -148,9 +161,8 @@
     height: 233px;
     font-family: 'Koulen';
     font-size: 256px;
-    margin: auto;
-    padding-right: 26px;
-    margin-top: -45px;
+    margin-left: 32%;
+    margin-top: -14%;
 }
 
 .gomb{
@@ -192,9 +204,8 @@
     font-family: 'KronaOne';
     font-size: large;
     text-align: center;
-    margin-top: 106%;
+    margin-top: 5%;
     margin-right: 2%;
-    
 }
 
 .indito_gomb{
@@ -209,7 +220,7 @@
     margin-left: 2%;
 }
 
-/*.minusz{
+.minusz{
     position:absolute;
     width:3%;
     height: 45px;
@@ -218,10 +229,97 @@
     color: white;
     font-size: larger;
     text-align: center;
-    padding-top: -2%;
     margin-left: -11%;
-    margin-top: 23%;
-}*/
+    margin-top: 2.7%;
+}
+
+.plusz{
+    position:absolute;
+    width:3%;
+    height: 45px;
+    border-radius: 10px 10px 10px 10px;
+    background: #808080;
+    color: white;
+    font-size: larger;
+    text-align: center; 
+    margin-top: -5.7%;
+    margin-left: 8.1%;
+}
+
+.cimsor{
+    color: white;
+    font-family: 'KottaOne';
+    
+    
+
+}
+
+#ido{
+    color: white;
+    font-size: 170%;
+    font-family: 'KottaOne';
+
+}
+#kiallitando_szoveg{
+    color: white;
+    font-family: 'KottaOne';
+    margin-bottom: -3%;
+
+    
+
+}
+
+#kiallitas_csapat1{
+    padding-left: 2%;
+    padding-top: 1%;
+    width: 45%;
+    height: 5%;
+    border-radius: 10px 10px 10px 10px;
+    background: #808080;
+    color: white;
+    font-size: small;
+    text-align: left; 
+    margin-right: 3%;
+    margin-top: 8%;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top:none;
+    border-left :none;
+
+}
+#kiallitas_csapat2{
+    padding-left: 2%;
+    padding-top: 1%;
+    width: 45%;
+    height: 5%;
+    border-radius: 10px 10px 10px 10px;
+    background: #808080;
+    color: white;
+    font-size: small;
+    text-align: left; 
+    
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top:none;
+    border-left :none;
+}
+
+#hosszabitas_ideje_szoveg{
+    color: white;
+    font-family: 'KottaOne';
+    margin-top: 10%
+
+}
+#plusz_ido{
+    color: white;
+    font-size: 170%;
+    font-family: 'KottaOne';
+}
+
+
+
+
+
 
 
 
