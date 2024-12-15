@@ -9,20 +9,20 @@
 </head>
 <body class="fooldal">
     <main class="container3">
-        <div class="item-left2">Csapat 1</div>
+        <div class="item-left2" id="csapat1Output">Csapat 1</div>
         <div class="item-mid2">Statisztika</div>
-        <div class="item-right2">Csapat 2</div>
+        <div class="item-right2" id="csapat2Output">Csapat 2</div>
 
     </main>
     <main class="container4">
         <div class="item-left3">
-            <p class="eredmeny">0</p>
+            <p class="eredmeny" id="csapat1Eredmeny">0</p>
             <div class="eredmeny_allito">
-            <button id="gol_csokkentese" class="gomb" type="button">
+            <button class="gomb" id="csapat1EredmenyMinusz" type="button">
                 -
             </button>
 
-            <button id="gol_novelese" class="gomb2" type="button">
+            <button class="gomb2" id="csapat1EredmenyPlusz" type="button">
                 +
             </button>
 
@@ -41,14 +41,14 @@
         
             
             <div class="hosszabitas">
-                <button type="button" class="minusz">
+                <button type="button" id="extraTimeMinusz" class="minusz">
                     -
                 </button>
                 <h1>
-                    <span  id="plusz_ido">0:00</span> 
+                    <span  id="plusz_ido">00:00</span> 
                 </h1>
 
-                <button type="button" class="plusz">
+                <button type="button" id="extraTimePlusz" class="plusz">
                     +
                 </button>
             </div>
@@ -65,14 +65,14 @@
         </div>
         </div>
         <div class="item-right3">
-            <p class="eredmeny2">2</p>
+            <p class="eredmeny2" id="csapat2Eredmeny">2</p>
 
             <div class="eredmeny_allito2">
-            <button id="gol_csokkentese" class="gomb" type="button">
+            <button class="gomb" id="csapat2EredmenyMinusz" type="button">
                 -
             </button>
 
-            <button id="gol_novelese" class="gomb2" type="button">
+            <button class="gomb2" id="csapat2EredmenyPlusz" type="button">
                 +
             </button>
         </div>
@@ -81,5 +81,7 @@
     
 
     
+
+    <script src="code.js"></script>
 </body>
 </html>
